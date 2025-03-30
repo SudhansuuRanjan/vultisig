@@ -50,15 +50,15 @@ const FaqSection = () => {
     },
     {
       question: 'Do you offer revisions for designs?',
-      answer: 'Yes, revisions are a standard part of our process. We include two rounds of revisions with every project to ensure you're completely satisfied with the final result. Additional revision rounds can be arranged if needed.'
+      answer: "Yes, revisions are a standard part of our process. We include two rounds of revisions with every project to ensure you're completely satisfied with the final result. Additional revision rounds can be arranged if needed."
     },
     {
       question: 'How long does a typical design project take?',
-      answer: 'Project timelines vary depending on scope and complexity. A basic branding project might take 2-3 weeks, while a comprehensive website design and development project could take 8-12 weeks. We'll provide a detailed timeline during our initial consultation.'
+      answer: "Project timelines vary depending on scope and complexity. A basic branding project might take 2-3 weeks, while a comprehensive website design and development project could take 8-12 weeks. We'll provide a detailed timeline during our initial consultation."
     },
     {
       question: 'Can you work with our existing brand guidelines?',
-      answer: 'Absolutely! We're experienced in working within established brand frameworks. We'll ensure all new designs align with your existing guidelines while bringing fresh perspectives to enhance your brand presence.'
+      answer: "Absolutely! We're experienced in working within established brand frameworks. We'll ensure all new designs align with your existing guidelines while bringing fresh perspectives to enhance your brand presence."
     }
   ];
 
