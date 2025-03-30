@@ -2,6 +2,8 @@
   font-family: "Brockmann", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+    --radius: 12px; /* Change this value as needed */
+  
 
   scroll-behavior: smooth;
 
