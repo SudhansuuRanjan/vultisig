@@ -65,13 +65,13 @@ export default {
 				},
 				// Custom colors
 				design: {
-					dark: "#0F0F0F",
-					card: "#1A1A1A",
-					"card-hover": "#222222",
-					accent: "#CCFF00",
-					"accent-hover": "#DDFF33",
+					dark: "#02122B",
+					card: "#061B3A",
+					"card-hover": "#11284A",
+					accent: " #33E6BF",
+					"accent-hover": "0439C7",
 					"accent-muted": "rgba(204, 255, 0, 0.2)",
-					border: "#333333",
+					border: "#2155DF",
 					muted: "#777777"
 				}
 			},

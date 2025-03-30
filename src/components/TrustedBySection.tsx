@@ -12,7 +12,7 @@ const TrustedBySection = () => {
   ];
 
   return (
-    <section className="py-16 px-6 md:px-12 border-t border-design-border">
+    <section className="py-16 px-6 md:px-12 border-design-border">
       <div className="container mx-auto">
         <h3 className="text-center text-white/50 text-lg mb-10">Already chosen by the leaders</h3>
         
