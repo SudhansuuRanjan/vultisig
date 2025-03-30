@@ -6,7 +6,7 @@ const FeaturesSection = () => {
   return (
     <section id="features" className="py-20 px-6 md:px-12 border-t border-design-border">
       <div className="container mx-auto">
-        <div className="mb-16">
+        <div className="mb-16 ">
           <div className="flex items-center justify-center mb-4">
             <div className="w-2 h-2 bg-design-accent rounded-full mr-2"></div>
             <p className="text-design-accent font-medium text-sm uppercase tracking-wider">Features</p>

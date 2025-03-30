@@ -10,6 +10,7 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import FaqSection from '@/components/FaqSection';
 import CtaSection from '@/components/CtaSection';
 import Footer from '@/components/Footer';
+import PremierFeatures from '@/components/PremierFeature';
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <main>
         <HeroSection />
         <TrustedBySection />
+        <PremierFeatures />
         <FeaturesSection />
         <ProcessSection />
         <StatsSection />
