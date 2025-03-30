@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MessageSquare, Wand2, HeadsetHelp } from 'lucide-react';
+import { MessageSquare, Wand2, HandHelping } from 'lucide-react';
 
 const ProcessSection = () => {
   return (
@@ -39,7 +39,7 @@ const ProcessSection = () => {
           {/* Step 3 */}
           <div className="flex flex-col items-center text-center">
             <div className="bg-design-card p-6 rounded-xl border border-design-border mb-6 w-20 h-20 flex items-center justify-center">
-              <HeadsetHelp className="w-8 h-8 text-design-accent" />
+              <HandHelping className="w-8 h-8 text-design-accent" />
             </div>
             <h3 className="text-white text-xl font-semibold mb-3">Get ongoing support</h3>
             <p className="text-white/60">We provide continuous feedback, revisions, and assistance to ensure perfection.</p>
