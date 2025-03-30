@@ -11,6 +11,7 @@ import FaqSection from '@/components/FaqSection';
 import CtaSection from '@/components/CtaSection';
 import Footer from '@/components/Footer';
 import PremierFeatures from '@/components/PremierFeature';
+import FAQ from '@/components/FAQ';
 
 const Index = () => {
   return (
@@ -24,7 +25,8 @@ const Index = () => {
         <ProcessSection />
         <StatsSection />
         <TestimonialsSection />
-        <FaqSection />
+        {/* <FaqSection /> */}
+        <FAQ/>
         <CtaSection />
       </main>
       <Footer />

@@ -9,7 +9,7 @@ const PremierFeatures = () => {
                 smallHeadingText="PREMIER FEATURES"
                 bigHeadingText="Discover our product's Capabilities"
                 highLightedText="Capabilities"
-                bottomText="Don't settle for mediocrity - embrace the future of management with Manage Wise." />
+                bottomText="Don't settle for mediocrity - embrace the future of management with VultiSig." />
 
             <div className='flex flex-col gap-10 justify-center items-center'>
                 <div className='flex lg:w-full md:w-[32rem] w-[100%] lg:flex-row flex-col gap-10'>

@@ -1,86 +1,73 @@
+import Marquee from "react-fast-marquee";
+import SmallHeading from './SmallHeading'
 
-import React from 'react';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+const Testimonials = () => {
 
-const TestimonialsSection = () => {
-  const testimonials = [
-    {
-      name: 'John Smith',
-      role: 'Product Manager, TechCorp',
-      content: 'The design team exceeded our expectations. They not only understood our brand vision but brought it to life in ways we couldn\'t have imagined.',
-      initials: 'JS'
-    },
-    {
-      name: 'Laura Williams',
-      role: 'CEO, Startup Inc.',
-      content: 'Working with the team was incredibly smooth. They streamlined our design process and delivered stunning visuals that our customers love.',
-      initials: 'LW'
-    },
-    {
-      name: 'Brad Thompson',
-      role: 'Marketing Director, GrowthBrand',
-      content: 'The attention to detail was impressive. From research to execution, everything was methodical and focused on achieving our business goals.',
-      initials: 'BT'
-    },
-    {
-      name: 'Rachel Anderson',
-      role: 'UX Director, InnovateApp',
-      content: 'Their design systems approach has transformed how we scale our product. Consistent, beautiful, and incredibly functional.',
-      initials: 'RA'
-    },
-    {
-      name: 'Ryan Peterson',
-      role: 'CTO, TechStartup',
-      content: 'The team managed to balance creativity with technical constraints perfectly. Our developers were as happy as our marketing team.',
-      initials: 'RP'
-    },
-    {
-      name: 'Olivia Waters',
-      role: 'Brand Strategist',
-      content: 'They don\'t just deliver designs; they deliver results. Our conversion rates improved significantly after implementing their recommendations.',
-      initials: 'OW'
-    }
-  ];
+    const testimonials = [
+        {
+            name: "David",
+            img: "https://framerusercontent.com/images/mIAsKrgLvd7WbLFFsh6f6YobhSc.jpg",
+            job: "FreeLancer",
+            review: "Using this product has been a game-changer for our team. The collaboration features and intuitive interface have greatly improved our productivity."
+        },
+        {
+            name: "Sarah",
+            img: "https://framerusercontent.com/images/OOtXrjMtLK5Xx3QTQXHynwpqYi4.jpg",
+            job: "Project Manager",
+            review: "The customer support team behind this product is exceptional. They have been incredibly responsive and helpful, addressing any questions or concerns promptly."
+        },
+        {
+            name: "Alex",
+            img: "https://framerusercontent.com/images/PIlOZWlmobm4uLtBhKFfw7HS4.jpg",
+            job: "Product Manager",
+            review: "I can't imagine running my business without this product. The automation features have saved me hours of manual work, allowing me to focus on strategic tasks."
+        },
+        {
+            name: "Emily",
+            img: "https://framerusercontent.com/images/dgHsIQVrsxRxtadpghDWppPujE.jpg",
+            job: "Director",
+            review: "VultiSig transformed our team's productivity. The intuitive interface and powerful features have made a significant impact on our daily operations"
+        }
+    ]
 
-  return (
-    <section id="testimonials" className="py-20 px-6 md:px-12 border-t border-design-border">
-      <div className="container mx-auto">
-        <div className="mb-16">
-          <div className="flex items-center justify-center mb-4">
-            <div className="w-2 h-2 bg-design-accent rounded-full mr-2"></div>
-            <p className="text-design-accent font-medium text-sm uppercase tracking-wider">Testimonials</p>
-          </div>
-          
-          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">
-            What our clients say about us
-          </h2>
-        </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {testimonials.map((testimonial, index) => (
-            <div 
-              key={index} 
-              className="bg-design-card rounded-xl p-6 border border-design-border hover:border-design-accent/30 transition-colors flex flex-col"
-            >
-              <p className="text-white/80 mb-6 flex-1">{testimonial.content}</p>
-              
-              <div className="flex items-center">
-                <Avatar className="mr-3 border border-design-border">
-                  <AvatarFallback className="bg-design-accent/10 text-design-accent">
-                    {testimonial.initials}
-                  </AvatarFallback>
-                </Avatar>
-                <div>
-                  <p className="text-white font-medium">{testimonial.name}</p>
-                  <p className="text-white/60 text-sm">{testimonial.role}</p>
+
+    return (
+        <div id="testimonials" className="py-10">
+            <div className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+                <div className='flex flex-col py-12'>
+                    <SmallHeading emoji={"🧡"} text={"TESTIMONIALS"} />
+                    <h1 data-aos="fade-up" className='lg:text-[3.4rem] md:text-[2.8rem] text-[2.4rem] lg:leading-[4rem] md:leading-[3.4rem] leading-[3rem] font-medium py-4'>
+                        Hear from our <span className='text-design-accent'>Satisfied</span> clients
+                    </h1>
+                    <h4 data-aos="fade-up" className='text-gray-500 lg:text-2xl md:text-xl text-lg lg:max-w-2xl max-w-lg'>
+                        Discover why our clients love working with us. Read their testimonials and learn how we has helped businesses.
+                    </h4>
                 </div>
-              </div>
             </div>
-          ))}
+            <Marquee direction="right" speed={40} autoFill={true} className="lg:mb-12 md:mb-10 mb-6 marquee" pauseOnHover={true}>
+                {
+                    testimonials.map((testimonial, index) => (
+                        <div key={index} className="border bg-design-card border-design-border rounded-[1.8rem] flex flex-col gap-4 p-10 pt-14 w-[21rem] flex-1 mx-3">
+                            <p className="text-white/70 font-medium text-xl" >
+                                "{testimonial.review}
+                            </p>
+                            <div className="flex items-center gap-3 pt-5">
+                                <img className='h-14 w-14 rounded-full' src={testimonial.img} alt="testimonial" />
+                                <div className="flex flex-col">
+                                    <h5 className="text-xl font-medium">
+                                        {testimonial.name}
+                                    </h5>
+                                    <p className="text-[rgb(130,130,130)] text-lg" >
+                                        {testimonial.job}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    ))
+                }
+            </Marquee>
         </div>
-      </div>
-    </section>
-  );
-};
+    )
+}
 
-export default TestimonialsSection;
+export default Testimonials;

@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="mr-2 flex items-center justify-center w-8 h-8">
               <div className="w-4 h-4 bg-design-accent rounded-sm"></div>
             </div>
-            <span className="text-white font-bold">DesignFlow</span>
+            <span className="text-white font-bold">VultiSig</span>
           </div>
           
           <div className="flex space-x-8 mb-4 md:mb-0">
@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
           
           <div className="text-white/60 text-sm">
-            © {new Date().getFullYear()} DesignFlow. All rights reserved.
+            © {new Date().getFullYear()} VultiSig. All rights reserved.
           </div>
         </div>
       </div>

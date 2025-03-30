@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="mr-2 flex items-center justify-center w-8 h-8">
               <div className="w-4 h-4 bg-design-accent rounded-sm"></div>
             </div>
-            <span className="text-white font-bold text-xl">DesignFlow</span>
+            <span className="text-white font-bold text-xl">VultiSig</span>
           </div>
           
           <div className="hidden md:flex space-x-8">
@@ -22,8 +22,8 @@ const Navbar = () => {
           </div>
           
           <div>
-            <Button variant="outline" className="mr-4 bg-transparent text-white border-design-border hover:bg-design-accent/10 hover:text-design-accent">Log in</Button>
-            <Button className="bg-design-accent text-black hover:bg-design-accent-hover">Sign Up</Button>
+            {/* <Button variant="outline" className="mr-4 bg-transparent text-white border-design-border hover:bg-design-accent/10 hover:text-design-accent">Log in</Button> */}
+            <Button className="bg-design-accent text-black hover:bg-design-accent-hover">Download App</Button>
           </div>
         </div>
       </div>
