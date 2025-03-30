@@ -54,3 +54,35 @@
     z-index: 100;
   }
 }
+
+
+.community-img::before,
+.community-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2rem;
+  /* Adjust the width of the shadow as needed */
+  z-index: 100;
+}
+
+.community-img::before {
+  left: 0;
+  background: linear-gradient(to right, #061B3A, transparent);
+}
+
+.community-img::after {
+  right: 0;
+  background: linear-gradient(to left, #061B3A, transparent);
+}
+
+.text-footer-bg {
+  background-color: white;
+  background: url('https://retinaaiims.org/eye.gif') no-repeat center;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}

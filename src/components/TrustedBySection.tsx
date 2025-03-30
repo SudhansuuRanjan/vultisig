@@ -16,7 +16,7 @@ const TrustedBySection = () => {
         <h3 className="text-center text-white/50 text-lg mb-10">Already chosen by the leaders</h3>
         <ul className="grid lg:grid-cols-6 grid-cols-3 lg:gap-12 gap-8 justify-center">
           {companies.map((company) => (
-            <li key={company.name} className='flex flex-col items-center gap-2 text-center'>
+            <li key={company.name} className='flex hover:scale-[104%] transition-all flex-col items-center gap-2 text-center cursor-pointer'>
               <img 
                 alt={company.name} 
                 loading="lazy" 
