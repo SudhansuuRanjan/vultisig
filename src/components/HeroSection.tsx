@@ -21,7 +21,7 @@ const HeroSection = () => {
             {/* <Button className="bg-design-accent text-black hover:bg-design-accent-hover px-8 py-6 text-lg">Go to Airdrop</Button> */}
             <div data-aos="fade-up" data-aos-duration="700" className="group flex lg:flex-row md:flex-row flex-col lg:gap-5 md:gap-5 gap-1 mt-5 items-center">
               <button className="bg-gradient-to-r hover:scale-105 transition-all from-[#33E6BF] to-[#0439C7] text-design-dark lg:text-xl md:text-xl text-lg font-semibold w-[17rem] py-3 rounded-2xl text-center flex items-center gap-3 justify-center">
-                <span>Get Started</span>
+                <span>Go to Airdrop</span>
                 <ArrowRightCircle className="text-[0px] transition-all ease-in-out group-has-[button]:text-xl" />
               </button>
             </div>

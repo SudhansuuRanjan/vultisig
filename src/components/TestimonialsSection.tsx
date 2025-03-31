@@ -40,7 +40,7 @@ const Testimonials = () => {
                         Hear from our <span className='text-design-accent'>Satisfied</span> clients
                     </h1>
                     <h4 data-aos="fade-up" className='text-gray-500 lg:text-2xl md:text-xl text-lg lg:max-w-2xl max-w-lg'>
-                        Discover why our clients love working with us. Read their testimonials and learn how we has helped businesses.
+                        Discover why our clients love working with us. Read their testimonials and learn how we helped to meet their security needs.
                     </h4>
                 </div>
             </div>
