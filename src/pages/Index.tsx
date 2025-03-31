@@ -12,6 +12,7 @@ import CtaSection from '@/components/CtaSection';
 import Footer from '@/components/Footer';
 import PremierFeatures from '@/components/PremierFeature';
 import FAQ from '@/components/FAQ';
+import OtherFeatures from '@/components/OtherFeatures';
 
 const Index = () => {
   return (
@@ -23,7 +24,8 @@ const Index = () => {
         <PremierFeatures />
         <FeaturesSection />
         <ProcessSection />
-        <StatsSection />
+        <OtherFeatures />
+        {/* <StatsSection /> */}
         <TestimonialsSection />
         {/* <FaqSection /> */}
         <FAQ/>

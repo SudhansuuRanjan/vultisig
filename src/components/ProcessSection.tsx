@@ -4,7 +4,7 @@ import { MessageSquare, Wand2, HandHelping } from 'lucide-react';
 
 const ProcessSection = () => {
   return (
-    <section id="process" className="py-20 px-6 md:px-12 border-t border-design-border bg-gradient-to-b from-design-dark to-black/50">
+    <section id="process" className="py-20 px-6 md:px-12 bg-gradient-to-b from-design-dark to-black/50">
       <div className="container mx-auto">
         <div data-aos="fade-up" className="mb-16">
           <div className="flex items-center justify-center mb-4">
