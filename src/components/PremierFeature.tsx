@@ -28,7 +28,7 @@ const PremierFeatures = () => {
                     </div>
                 </div>
                 <div className='flex lg:flex-row flex-col lg:w-full md:w-[32rem] w-[100%] gap-10 mb-16'>
-                    <div data-aos="fade-up" className='border-design-border group flex flex-col hover:border-design-accent/50 bg-design-card transition hover:bg-design-card-hover  border rounded-3xl'>
+                    <div data-aos="fade-up" className='border-design-border lg:w-1/3 w-full group flex flex-col hover:border-design-accent/50 bg-design-card transition hover:bg-design-card-hover  border rounded-3xl'>
                         <img className='h-[18rem] group-hover:scale-105 transition-all self-center' src="https://waiting-wrist-6f6.notion.site/image/attachment%3A2dbb8315-7e27-468c-bb78-84839957d9d6%3AGroup_1000004713.png?table=block&id=19823043-5592-80b7-a839-cf3c22fbb58b&spaceId=59ea08d2-bc07-4c80-b51a-dbd605835b75&width=660&userId=&cache=v2" alt="card-img" />
                         <div className='p-8'>
                             <h4 className='text-2xl font-semibold pb-1'>
@@ -37,7 +37,7 @@ const PremierFeatures = () => {
                             <p className='text-gray-500 font-medium'>Use your phone, laptop, or tablet-fast, secure, and hassle-free. No special devices needed.</p>
                         </div>
                     </div>
-                    <div data-aos="fade-up" className='group border-design-border flex flex-col hover:border-design-accent/50 bg-design-card transition hover:bg-design-card-hover  border rounded-3xl'>
+                    <div data-aos="fade-up" className='group lg:w-1/3 w-full border-design-border flex flex-col hover:border-design-accent/50 bg-design-card transition hover:bg-design-card-hover  border rounded-3xl'>
                         <img className='h-[18rem] group-hover:scale-105 transition-all self-center' src="https://waiting-wrist-6f6.notion.site/image/attachment%3A036d7d85-afdd-4279-be4e-35bcf9f1b336%3AVulti_Agent_Phone.png?table=block&id=19123043-5592-80e6-916c-faf236b18c6b&spaceId=59ea08d2-bc07-4c80-b51a-dbd605835b75&width=580&userId=&cache=v2" alt="card-img" />
                         <div className='p-8'>
                             <h4 className='text-2xl font-semibold pb-1'>
@@ -46,7 +46,7 @@ const PremierFeatures = () => {
                             <p className='text-gray-500 font-medium'>No need to write down seed phrases. Store your Vault Shares online safely and respawn anywhere!</p>
                         </div>
                     </div>
-                    <div data-aos="fade-up" className='border-design-border group flex flex-col hover:border-design-accent/50 bg-design-card transition hover:bg-design-card-hover  border rounded-3xl'>
+                    <div data-aos="fade-up" className='border-design-border lg:w-1/3 w-full group flex flex-col hover:border-design-accent/50 bg-design-card transition hover:bg-design-card-hover  border rounded-3xl'>
                         <img className='h-[18rem] group-hover:scale-105 transition-all self-center' src="https://waiting-wrist-6f6.notion.site/image/attachment%3A9ab6d696-f531-4caa-be40-3b55b9f93712%3AVulti_Agent_Reading_(2).png?table=block&id=19123043-5592-8083-8829-f0cc388abb48&spaceId=59ea08d2-bc07-4c80-b51a-dbd605835b75&width=660&userId=&cache=v2" alt="card-img" />
                         <div className='p-8'>
                             <h4 className='text-2xl font-semibold pb-1'>

@@ -17,7 +17,7 @@ const Footer = () => {
         <div className='flex lg:flex-row md:flex-row flex-col items-start lg:px-10 md:px-5 px-10 lg:gap-6 md:gap-2 gap-16'>
           <div className='lg:max-w-md md:max-w-md'>
             <p className='font-semibold lg:text-4xl md:text-4xl text-3xl'>
-              Vultisig, the ultimate self-custodial, multi-chain <span className='text-design-accent'> crypto vault.</span>
+              Vultisig, the ultimate self-custodial, multi-chain <span className='text-gradient'> crypto vault.</span>
             </p>
             <div className='flex gap-4 my-10'>
               <Link aria-label="Facebook Page" to="/" className='h-10 w-10 rounded-full flex justify-center items-center bg-white hover:bg-opacity-25 cursor-pointer bg-opacity-15 transition'>
@@ -85,7 +85,6 @@ const Footer = () => {
             <div className='lg:max-w-md md:max-w-md w-full flex-1'>
               <h5 className='text-base font-semibold flex items-center gap-2'><div className='size-2 rounded-full bg-design-accent'></div> Legals</h5>
               <div className='w-full flex flex-col gap-3 font-medium mt-5'>
-
                 <Link onClick={scrollToTop} to="/legal/privacy-policy" className='bg-gray-400 hover:bg-opacity-25 cursor-pointer w-fit rounded-full bg-opacity-15 py-2 px-6'>
                   Privacy Policy
                 </Link>
@@ -96,6 +95,10 @@ const Footer = () => {
 
                 <Link onClick={scrollToTop} to="/legal/code-of-conduct" className='bg-gray-400 hover:bg-opacity-25 cursor-pointer w-fit rounded-full bg-opacity-15 py-2 px-6'>
                   Code of Conduct
+                </Link>
+
+                <Link onClick={scrollToTop} to="/legal/code-of-conduct" className='bg-gray-400 hover:bg-opacity-25 cursor-pointer w-fit rounded-full bg-opacity-15 py-2 px-6'>
+                  Compliance
                 </Link>
               </div>
             </div>

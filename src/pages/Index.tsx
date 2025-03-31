@@ -14,6 +14,7 @@ import PremierFeatures from '@/components/PremierFeature';
 import FAQ from '@/components/FAQ';
 import OtherFeatures from '@/components/OtherFeatures';
 import BestFeatures from '@/components/BestFeatures';
+import Video from '@/components/Video';
 
 const Index = () => {
   return (
@@ -24,6 +25,7 @@ const Index = () => {
         <TrustedBySection />
         <PremierFeatures />
         <FeaturesSection />
+        <Video/>
         <ProcessSection />
         <OtherFeatures />
         <BestFeatures />
