@@ -104,3 +104,15 @@
   animation-delay: 0.5s;
   transition: all 0.3s ease-in-out;
 }
+
+/* #33E6BF
+#0439C7 */
+
+.text-gradient{
+  background: linear-gradient(90deg, #33E6BF 0%, #0439C7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}

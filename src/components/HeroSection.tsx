@@ -5,16 +5,16 @@ import { ArrowRightCircle } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <section className="relative pt-32 pb-20 px-6 md:px-12 overflow-hidden">
+    <section className="relative bg-cover bg-center bg-[url(https://waiting-wrist-6f6.notion.site/image/attachment%3Ae3ac7d1a-0ad7-47c6-9034-7390c23f26e3%3ABackground_1.png?table=block&id=19123043-5592-80db-a763-c349dab75c61&spaceId=59ea08d2-bc07-4c80-b51a-dbd605835b75&width=1420&userId=&cache=v2)] pt-32 pb-20 px-6 md:px-12 overflow-hidden">
       <div className="container mx-auto">
         <div className="max-w-3xl mx-auto text-center relative z-10">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
             VULTISIG AIRDROP<br />
-            IS <span className='text-accent'>LIVE</span>!
+            IS <span className='text-accent text-gradient'>LIVE</span>!
           </h1>
 
           <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
-            Elevate the design process by harnessing the power of AI to automate parts of the design workflow, maintaining high standards.
+            Don't miss your chance to claim your share of $VULT and be part of the future of wallet security.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -34,7 +34,7 @@ const HeroSection = () => {
       {/* <div className="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] opacity-20 rounded-full bg-gradient-circle animate-pulse-glow"></div> */}
 
       {/* Circle outline */}
-      <div className="absolute bg-design-dark top-3/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[32rem] h-[32rem] border border-design-accent/30 rounded-full"></div>
+      <div className="absolute top-3/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[32rem] h-[32rem] border border-design-accent/30 rounded-full"></div>
 
     </section>
   );
