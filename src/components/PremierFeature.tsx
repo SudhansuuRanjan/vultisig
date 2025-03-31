@@ -21,9 +21,9 @@ const PremierFeatures = () => {
                         <img className='h-[18rem] self-center' src="https://waiting-wrist-6f6.notion.site/image/attachment%3A9a62289a-ec52-43d2-82c9-01229fc4c2b9%3AGroup_1000004705.png?table=block&id=19823043-5592-8099-a72d-c0babf2fc6bf&spaceId=59ea08d2-bc07-4c80-b51a-dbd605835b75&width=660&userId=&cache=v2" alt="card-img" />
                         <div className='p-8'>
                             <h4 className='text-2xl font-semibold pb-1'>
-                                Smart Task Management
+                                Threshold Signatures
                             </h4>
-                            <p className='text-gray-500 font-medium'>Say goodbye to chaos with our smart task management system</p>
+                            <p className='text-gray-500 font-medium'>Multiple devices to sign-no single point of failure. Never lose funds with one compromised device</p>
                         </div>
                     </div>
                 </div>
@@ -32,27 +32,28 @@ const PremierFeatures = () => {
                         <img className='h-[18rem] self-center' src="https://waiting-wrist-6f6.notion.site/image/attachment%3A2dbb8315-7e27-468c-bb78-84839957d9d6%3AGroup_1000004713.png?table=block&id=19823043-5592-80b7-a839-cf3c22fbb58b&spaceId=59ea08d2-bc07-4c80-b51a-dbd605835b75&width=660&userId=&cache=v2" alt="card-img" />
                         <div className='p-8'>
                             <h4 className='text-2xl font-semibold pb-1'>
-                                Flexible Scheduling
+                                Familiar Hardware
                             </h4>
-                            <p className='text-gray-500 font-medium'>Stay productive with our flexible scheduling system</p>
+                            <p className='text-gray-500 font-medium'>Use your phone, laptop, or tablet-fast, secure, and hassle-free. No special devices needed.</p>
                         </div>
                     </div>
                     <div data-aos="fade-up" className='border-design-border flex flex-col hover:border-design-accent/50 bg-design-card transition hover:bg-design-card-hover  border rounded-3xl'>
                         <img className='h-[18rem] self-center' src="https://waiting-wrist-6f6.notion.site/image/attachment%3A036d7d85-afdd-4279-be4e-35bcf9f1b336%3AVulti_Agent_Phone.png?table=block&id=19123043-5592-80e6-916c-faf236b18c6b&spaceId=59ea08d2-bc07-4c80-b51a-dbd605835b75&width=580&userId=&cache=v2" alt="card-img" />
                         <div className='p-8'>
                             <h4 className='text-2xl font-semibold pb-1'>
-                                Easy Communication
+                                Vault Shares
                             </h4>
-                            <p className='text-gray-500 font-medium'>Collaborate seamlessly with your team in real-time</p>
+                            <p className='text-gray-500 font-medium'>No need to write down seed phrases. Store your Vault Shares online safely and respawn anywhere!</p>
                         </div>
                     </div>
                     <div data-aos="fade-up" className='border-design-border flex flex-col hover:border-design-accent/50 bg-design-card transition hover:bg-design-card-hover  border rounded-3xl'>
                         <img className='h-[18rem] self-center' src="https://waiting-wrist-6f6.notion.site/image/attachment%3A9ab6d696-f531-4caa-be40-3b55b9f93712%3AVulti_Agent_Reading_(2).png?table=block&id=19123043-5592-8083-8829-f0cc388abb48&spaceId=59ea08d2-bc07-4c80-b51a-dbd605835b75&width=660&userId=&cache=v2" alt="card-img" />
                         <div className='p-8'>
                             <h4 className='text-2xl font-semibold pb-1'>
-                                Analytics
+                                Intutive UI
                             </h4>
-                            <p className='text-gray-500 font-medium'>Gain valuable insights with our advanced analytics feature</p>
+                            <p className='text-gray-500 font-medium'>Have all information displayed on big screens.
+                            Easy to see easy to understand</p>
                         </div>
                     </div>
                 </div>

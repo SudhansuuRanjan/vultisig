@@ -43,11 +43,11 @@ const Footer = () => {
                   How It Works?
                 </Link>
 
-                <Link onClick={scrollToTop} to="/events" className='bg-gray-400 hover:bg-opacity-25 cursor-pointer w-fit rounded-full bg-opacity-15 py-2 px-6'>
+                <Link onClick={scrollToTop} to="/" className='bg-gray-400 hover:bg-opacity-25 cursor-pointer w-fit rounded-full bg-opacity-15 py-2 px-6'>
                   Backed by
                 </Link>
 
-                <Link onClick={scrollToTop} to="/schedule" className='bg-gray-400 hover:bg-opacity-25 cursor-pointer w-fit rounded-full bg-opacity-15 py-2 px-6'>
+                <Link onClick={scrollToTop} to="/" className='bg-gray-400 hover:bg-opacity-25 cursor-pointer w-fit rounded-full bg-opacity-15 py-2 px-6'>
                   Docs
                 </Link>
 
