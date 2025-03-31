@@ -13,7 +13,6 @@ const TrustedBySection = () => {
   return (
     <section className="py-16 px-6 border-design-border">
       <div className="container mx-auto">
-        <h3 className="text-center text-white/50 text-lg mb-10 px-8">Already chosen by the leaders</h3>
 
         <Marquee autoFill={true} className="lg:mb-12 md:mb-10 mb-6 flex overflow-y-hidden w-full" pauseOnHover={true}>
           {companies.map((company) => (
@@ -31,6 +30,8 @@ const TrustedBySection = () => {
             </li>
           ))}
           </Marquee>
+
+          <h3 className="text-center text-white/50 text-lg mb-10 px-8">Trusted by industry leaders worldwide.</h3>
       </div>
     </section>
   );
