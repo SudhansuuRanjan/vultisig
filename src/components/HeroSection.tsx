@@ -1,4 +1,5 @@
 import { ArrowRight, ArrowRightCircle } from 'lucide-react';
+import { Parallax } from 'react-scroll-parallax';
 
 const HeroSection = () => {
   return (
@@ -13,6 +14,14 @@ const HeroSection = () => {
               Go to Vultisig Airdrop <ArrowRight size={15} className="inline-block" />
             </div>
           </a>
+
+          <Parallax
+            translateX={['-1000px', '850px']}
+            translateY={['-1000px', '500px']}
+            easing="easeInQuad">
+            <img src="/airdrop.png" alt="space ship" className='absolute lg:h-24 md:h-20 h-24 top-[10rem] -left-[10rem] ]z-0' />
+          </Parallax>
+
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
             <p className="slogan">Regain control with the <span className='text-accent text-gradient'>Seedless, Multi-chain</span> crypto vault</p>
           </h1>
@@ -25,17 +34,16 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row justify-center gap-4 ">
             {/* <Button className="bg-design-accent text-black hover:bg-design-accent-hover px-8 py-6 text-lg">Go to Airdrop</Button> */}
-            <div data-aos="fade-up" data-aos-duration="700" className="group flex lg:flex-row md:flex-row flex-col lg:gap-5 md:gap-5 gap-5 mt-0 items-center">
+            <div data-aos="fade-up" data-aos-duration="700" className="group z-10 flex lg:flex-row md:flex-row flex-col lg:gap-5 md:gap-5 gap-5 mt-0 items-center">
               <button className="bg-gradient-to-r hover:scale-105 transition-all from-[#33E6BF] to-[#0439C7] text-design-dark lg:text-lg md:text-lg text-base font-medium lg:w-[14rem] md:w-[14rem] w-[19rem] py-3 rounded-2xl text-center flex items-center gap-3 justify-center">
                 <span>Download App</span>
               </button>
 
-              <button className="bg-gradient-to-r hover:scale-105 transition-all border border-design-accent text-design-accent lg:text-lg md:text-lg text-base font-medium lg:w-[14rem] md:w-[14rem] w-[19rem] py-[0.72rem] rounded-2xl text-center flex items-center gap-3 justify-center">
+              <button className="bg-gradient-to-r hover:scale-105 transition-all border border-design-accent text-design-accent lg:text-lg md:text-lg text-base font-medium lg:w-[14rem] md:w-[14rem] w-[19rem] py-[0.72rem] backdrop-blur rounded-2xl text-center flex items-center gap-3 justify-center">
                 <span>Know More</span>
                 <ArrowRightCircle className="text-[0px] transition-all ease-in-out group-has-[button]:text-xl" />
               </button>
             </div>
-
           </div>
         </div>
       </div>
@@ -44,7 +52,7 @@ const HeroSection = () => {
       {/* <div className="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] opacity-20 rounded-full bg-gradient-circle animate-pulse-glow"></div> */}
 
       {/* Circle outline */}
-     
+
     </section>
   );
 };
