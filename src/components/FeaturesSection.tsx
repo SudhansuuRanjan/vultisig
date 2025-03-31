@@ -1,5 +1,3 @@
-
-import React from 'react';
 import { BarChart3, Sparkles, LineChart, Workflow, Users } from 'lucide-react';
 
 const FeaturesSection = () => {

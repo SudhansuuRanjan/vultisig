@@ -17,7 +17,7 @@ const BestFeatures = () => {
 
 
                 <div className="flex items-center lg:flex-row flex-col-reverse mt-16">
-                    <div>
+                    <div className='max-w-2xl'>
                         <ul className="flex gap-10 flex-col">
                             {/* Step 1: Vault Generation */}
                             <li data-aos="fade-up" className="text-start">

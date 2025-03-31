@@ -1,66 +1,66 @@
+import React, { useEffect, useState } from "react"
 import SmallHeading from "./SmallHeading"
-import { useState } from "react";
-import { Plus } from "lucide-react";
+
 
 const FAQ = () => {
 
     const faqs = [
         {
-            question: "What is VultiSig and what does it offer?",
-            answer: "VultiSig is a comprehensive management platform designed to streamline your business operations, enhance productivity, and drive success. It offers a range of features including task management, scheduling, communication tools, analytics, and more.",
-            id: "0"
-        },
-        {
-            question: "Is VultiSig suitable for small businesses and larger enterprises alike?",
-            answer: "Yes, VultiSig is designed to cater to the needs of both small businesses and larger enterprises. Its scalable features and customizable options make it versatile for various business sizes.",
+            question: "What's your challenge expectations?",
+            answer: "Our challenge expectations can be summarized as follows: Foster innovation and creativity, Encourage collaboration and teamwork, Deliver impactful and practical solutions and Strive for technical excellence and problem-solving skills.",
             id: "1"
         },
         {
-            question: "Can I access VultiSig from different devices and platforms?",
-            answer: "Yes, VultiSig offers cross-platform compatibility, allowing you to access and use the platform seamlessly on desktops, web browsers, and mobile devices.",
+            question: "How was your challenge experience?",
+            answer: "It was a great experience. We learned a lot of new things and we had the chance to meet new people. We also had the chance to work on a real-life problem and try to solve it.",
             id: "2"
         },
         {
-            question: "What kind of support options do you offer to users?",
-            answer: "We provide responsive customer support via chat and email to assist you with any inquiries, issues, or guidance you may need while using VultiSig.",
+            question: "What is your expected result?",
+            answer: "I learnt a lot of new things and I had the chance to meet new people. I also had the chance to work on a real-life problem and try to solve it. I learnt a lot of new things and I had the chance to meet new people. I also had the chance to work on a real-life problem and try to solve it.",
             id: "3"
         },
         {
-            question: "How secure is the data stored within VultiSig?",
-            answer: "Your data's security is a top priority. VultiSig employs robust data encryption and follows industry best practices to ensure your sensitive information is safe and protected.",
+            question: "What are the difficulties you faced?",
+            answer: "I faced a lot of difficulties. I learnt a lot of new things and I had the chance to meet new people. I also had the chance to work on a real-life problem and try to solve it. I learnt a lot of new things and I had the chance to meet new people. I also had the chance to work on a real-life problem and try to solve it.",
             id: "4"
+        },
+        {
+            question: "Is this Quest platform free of cost?",
+            answer: "Yes, Quest is a free platform for all students. We are a non-profit organization and we are not looking to make any profit from this platform.",
+            id: "5"
         }
     ]
 
-    const [activeId, setActiveId] = useState("0"); // Set the first faq as active by default
-
-    const handleQuestionClick = (id) => {
-        setActiveId(id);
-    }
-
-
     return (
-        <div id="faq" className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-            <div className="flex lg:flex-row md:flex-row flex-col gap-y-16 justify-between">
-                <div className='flex flex-col max-w-xs'>
-                    <SmallHeading emoji={"🙋‍♀️"} text={"FAQ"} />
-                    <h1 data-aos="fade-up" className='lg:text-5xl md:text-4xl text-3xl font-semibold py-4'>
-                        Need <span className='text-design-accent'>Answers?</span>
-                    </h1>
-                    <h4 data-aos="fade-up" className="text-[rgb(118,117,117)] font-medium lg:text-[1.3rem] lg:leading-6 md:text-xl text-lg max-w-xs">
-                        Check out our most commonly asked questions below to find the information you need.
-                    </h4>
-                </div>
+        <div className="flex lg:flex-row md:flex-row flex-col justify-evenly lg:py-32 md:py-28 py-16  gap-5 px-5">
+            <div>
+                <SmallHeading emoji={"❓"} text={"FAQs"} />
+                <h3 data-aos="fade-up"  className='lg:text-5xl md:text-4xl text-3xl font-semibold underline-offset-8 mt-4'>
+                    What
+                </h3>
+                <h3 data-aos="fade-up"  className='lg:text-5xl md:text-4xl text-3xl font-semibold underline-offset-8 mt-4'>
+                    <span className=' text-design-accent'>Frequently Asked</span>
+                </h3>
+                <h3 data-aos="fade-up"  className='lg:text-5xl md:text-4xl text-3xl font-semibold underline-offset-8 mt-4'>
+                    Questions
+                </h3>
+                <p data-aos="fade-up"  className='text-gray-500 lg:max-w-sm md:max-w-xs w-[90%] my-10'>
+                    Some of the most common questions we get asked by our clients. If you have any other questions, please get in touch.
+                </p>
+                <img data-aos="fade-up"  className="lg:max-w-sm md:max-w-xs w-[70%] m-auto" src="https://waiting-wrist-6f6.notion.site/image/attachment%3A076c941d-bc4b-4d04-aefe-a3e9cbcd89d5%3AVullti_Agent_idea.png?table=block&id=19123043-5592-8092-a249-fe1f503804ea&spaceId=59ea08d2-bc07-4c80-b51a-dbd605835b75&width=410&userId=&cache=v2" alt="faqs" />
+            </div>
 
-                <div className="lg:w-[60%] md:w-[60%] w-full flex flex-col gap-4">
+            <div className="lg:w-[50%] md:w-[50%] w-full">
+                <div className='flex flex-col items-center justify-center my-16'>
                     {
                         faqs.map((faq) => (
-                            <FaqCard
-                                key={faq.id}
-                                data={faq}
-                                active={faq.id === activeId}
-                                onQuestionClick={handleQuestionClick}
-                            />
+                            <div className="w-full" key={faq.id}>
+                                <FaqCard data={faq} />
+                                {
+                                    Number(faq.id) < faqs.length && <hr data-aos="fade-up" className='w-full border-gray-700 my-5' />
+                                }
+                            </div>
                         ))
                     }
                 </div>
@@ -69,30 +69,32 @@ const FAQ = () => {
     )
 }
 
-export default FAQ;
+export default FAQ
 
 
-const FaqCard = ({ data, active, onQuestionClick }) => {
-    const handleToggleAnswer = () => {
-        if (active) {
-            onQuestionClick(null);
-            return;
+const FaqCard = ({ data }) => {
+    const [show, setShow] = useState(false);
+
+    useEffect(() => {
+        if (data.id === "1") {
+            setShow(true);
         }
-        onQuestionClick(data.id);
-    }
+    }, [])
 
     return (
-        <div data-aos="fade-up" className='flex transition-all delay-[15ms] ease-in-out  bg-design-card lg:p-6 md:p-5 p-3 rounded-2xl gap-0 flex-col'>
-            <div onClick={handleToggleAnswer} className='flex justify-between items-center cursor-pointer'>
-                <h2 className='font-semibold lg:text-2xl md:text-xl text-lg pr-5'>
-                    {data.question}
-                </h2>
-                <button name='expandfaq' aria-label="Expand FAQ" className={`transition-all delay-75 ease-in-out ${active && '-rotate-45'}`}>
-                    <Plus className='text-design-border lg:text-3xl md:text-2xl text-xl' />
+        <div data-aos="fade-up" className='flex transition-all delay-[15ms] ease-in-out lg:py-5 md:py-5 py-3 gap-0 flex-col'>
+            <div onClick={() => setShow((show) => !show)} className='flex justify-between items-center cursor-pointer'>
+                <h3 className='font-semibold lg:text-2xl md:text-xl text-lg pr-5'>
+                    <span className="text-design-accent mr-5">0{data.id}</span> {data.question}
+                </h3>
+                <button className={`transition-all delay-75 ease-in-out ${show && '-rotate-180'}`}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400 hover:text-rose-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7" />
+                    </svg>
                 </button>
             </div>
-            <div className={`overflow-hidden transition-all delay-[15ms] ease-in-out ${active ? 'h-fit mt-4 my-2' : 'h-0'}`}>
-                <p className='text-gray-500 lg:text-lg md:text-lg text-base w-[95%]'>
+            <div className={`overflow-hidden transition-all delay-[15ms] ease-in-out ${show ? 'h-fit mt-4 my-2' : 'h-0'}`}>
+                <p className='text-gray-400 lg:text-lg md:text-lg text-base w-[95%]'>
                     {
                         data.answer
                     }

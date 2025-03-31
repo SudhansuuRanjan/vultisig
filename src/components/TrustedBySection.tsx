@@ -1,4 +1,4 @@
-import React from 'react';
+import Marquee from "react-fast-marquee";
 
 const companies = [
   { name: "THORChain", src: "https://vultisig.com/images/thorchain.svg" },
@@ -11,12 +11,13 @@ const companies = [
 
 const TrustedBySection = () => {
   return (
-    <section className="py-16 px-6 md:px-12 border-design-border">
+    <section className="py-16 px-6 border-design-border">
       <div className="container mx-auto">
-        <h3 className="text-center text-white/50 text-lg mb-10">Already chosen by the leaders</h3>
-        <ul className="grid lg:grid-cols-6 grid-cols-3 lg:gap-12 gap-8 justify-center">
+        <h3 className="text-center text-white/50 text-lg mb-10 px-8">Already chosen by the leaders</h3>
+
+        <Marquee autoFill={true} className="lg:mb-12 md:mb-10 mb-6 flex overflow-y-hidden w-full" pauseOnHover={true}>
           {companies.map((company) => (
-            <li key={company.name} className='flex hover:scale-[104%] transition-all flex-col items-center gap-2 text-center cursor-pointer'>
+            <li key={company.name} className='flex px-10 hover:scale-[104%] transition-all flex-col items-center gap-2 text-center cursor-pointer'>
               <img 
                 alt={company.name} 
                 loading="lazy" 
@@ -29,7 +30,7 @@ const TrustedBySection = () => {
               <span>{company.name} <br /> Treasury</span>
             </li>
           ))}
-        </ul>
+          </Marquee>
       </div>
     </section>
   );
