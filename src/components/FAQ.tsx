@@ -48,7 +48,7 @@ const FAQ = () => {
                 <p data-aos="fade-up"  className='text-gray-500 lg:max-w-sm md:max-w-xs w-[90%] my-10'>
                     Some of the most common questions we get asked by our clients. If you have any other questions, please get in touch.
                 </p>
-                <img data-aos="fade-up"  className="lg:max-w-sm md:max-w-xs w-[70%] m-auto" src="https://waiting-wrist-6f6.notion.site/image/attachment%3A076c941d-bc4b-4d04-aefe-a3e9cbcd89d5%3AVullti_Agent_idea.png?table=block&id=19123043-5592-8092-a249-fe1f503804ea&spaceId=59ea08d2-bc07-4c80-b51a-dbd605835b75&width=410&userId=&cache=v2" alt="faqs" />
+                <img data-aos="fade-up"  className="lg:max-w-sm bounce animate-bounce md:max-w-xs w-[70%] m-auto" src="https://waiting-wrist-6f6.notion.site/image/attachment%3A076c941d-bc4b-4d04-aefe-a3e9cbcd89d5%3AVullti_Agent_idea.png?table=block&id=19123043-5592-8092-a249-fe1f503804ea&spaceId=59ea08d2-bc07-4c80-b51a-dbd605835b75&width=410&userId=&cache=v2" alt="faqs" />
             </div>
 
             <div className="lg:w-[50%] md:w-[50%] w-full">

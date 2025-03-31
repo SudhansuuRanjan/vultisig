@@ -1,10 +1,8 @@
 import SmallHeading from "./SmallHeading"
 import { Phone, LucideFlame, Bell } from "lucide-react";
-// import { brands } from "../assets";
 
 
 const OtherFeatures = () => {
-
     const features = [
         {
             icon: <Phone />,
@@ -53,18 +51,6 @@ const OtherFeatures = () => {
                             </div>
                         ))
                     }
-                </div>
-
-                <div className="pt-16">
-                    {/* <div data-aos="fade-up" className="m-auto grid grid-cols-5 place-items-center place-content-center gap-3 w-fit">
-                        {
-                            brands.map((brand, index) => (
-                                <div className="bg-[rgb(33,33,33)] lg:p-3 md:p-3 p-2.5 rounded-xl w-fit">
-                                    <img className='lg:h-10 md:h-10 h-8' src={brand + ".svg"} alt="brand" />
-                                </div>
-                            ))
-                        }
-                    </div> */}
                 </div>
             </div>
 
