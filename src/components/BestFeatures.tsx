@@ -25,7 +25,7 @@ const BestFeatures = () => {
                                     <div className="p-2 rounded-full size-9 text-center flex items-center justify-center text-design-dark bg-design-accent">1.</div>
                                     <div>Vault Generation</div>
                                 </h4>
-                                <div className="pl-3">
+                                <div className="pl-5">
                                     <span className="label font-semibold">KeyGen time:</span>
                                     <span className="value ml-1">3-5 seconds.</span>
                                     <p className="desc">Fast or Secure Vaults. Choose your vault type. Key generation is fast. No one device holds the vault private key, just vault shares.</p>
@@ -39,7 +39,7 @@ const BestFeatures = () => {
                                     <div>Transaction Signing</div>
                                 </h4>
 
-                                <div className="pl-3">
+                                <div className="pl-5">
                                     <span className="label font-semibold">KeySign time:</span>
                                     <span className="value ml-1">1-3 seconds.</span>
                                     <p className="desc">One device starts the transaction. A second paired device confirms the transaction. It is natively “two-factor” and is done in real time.</p>
@@ -52,7 +52,7 @@ const BestFeatures = () => {
                                     <div className="p-2 rounded-full size-9 text-center flex items-center justify-center text-design-dark bg-design-accent">3.</div>
                                     <div>Resharing</div>
                                 </h4>
-                                <div className="pl-3">
+                                <div className="pl-5">
                                     <span className="label font-semibold">Reshare Time:</span>
                                     <span className="value ml-1">3-5 seconds.</span>
                                     <p className="desc">Lost a device? Replace it easily without changing the vault or address. Want to increase security? Go from 2-of-3 to 3-of-4 setup easily.</p>
