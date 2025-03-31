@@ -14,14 +14,14 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
-            Elevate the design process by harnessing the power of AI to automate parts of the design workflow, maintaining high standards.
+            Don't miss your chance to claim your share of $VULT and be part of the future of wallet security.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             {/* <Button className="bg-design-accent text-black hover:bg-design-accent-hover px-8 py-6 text-lg">Go to Airdrop</Button> */}
             <div data-aos="fade-up" data-aos-duration="700" className="group flex lg:flex-row md:flex-row flex-col lg:gap-5 md:gap-5 gap-1 mt-5 items-center">
               <button className="bg-gradient-to-r hover:scale-105 transition-all from-[#33E6BF] to-[#0439C7] text-design-dark lg:text-xl md:text-xl text-lg font-semibold w-[17rem] py-3 rounded-2xl text-center flex items-center gap-3 justify-center">
-                <span>Get Started</span>
+                <span>Go to Airdrop</span>
                 <ArrowRightCircle className="text-[0px] transition-all ease-in-out group-has-[button]:text-xl" />
               </button>
             </div>

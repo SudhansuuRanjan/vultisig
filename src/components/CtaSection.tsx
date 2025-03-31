@@ -9,14 +9,14 @@ const CtaSection = () => {
           <div className='flex flex-col lg:py-12 md:py-10 py-6 max-w-sm'>
             <SmallHeading emoji={"👋"} text={"DON'T MISS OUT"} />
             <h1 className='lg:text-5xl md:text-4xl text-3xl font-medium py-4'>
-              Unleash your <span className='text-design-accent'>Potential</span> with us
+              Secure Your <span className='text-design-accent'>Digital Assets</span> with us
             </h1>
             <h4 className='text-gray-500 font-medium lg:text-xl md:text-lg'>
               Join our community of ambitious individuals and organizations eager to make a difference.
             </h4>
             <div data-aos-duration="700" className="group flex lg:flex-row md:flex-row flex-col lg:gap-5 md:gap-5 gap-1 mt-5 items-center">
               <button className="bg-gradient-to-r hover:scale-105 transition-all from-[#33E6BF] to-[#0439C7] text-design-dark lg:text-xl md:text-xl text-lg font-semibold w-[17rem] py-3 rounded-2xl text-center flex items-center gap-3 justify-center">
-                <span>Try It Now</span>
+                <span>Download Now</span>
                 <ArrowRightCircle className="text-[0px] transition-all ease-in-out group-has-[button]:text-xl" />
               </button>
             </div>

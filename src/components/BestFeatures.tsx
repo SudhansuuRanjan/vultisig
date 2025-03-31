@@ -7,10 +7,10 @@ const BestFeatures = () => {
             <div className='text-center lg:px-12 md:px-6 px-4 bg-design-dark flex items-center flex-col w-full mx-auto pt-12'>
                 <SmallHeading emoji={"🛠️"} text={"INTEGRATIONS"} />
                 <h1 data-aos="fade-up" className='lg:text-5xl md:text-4xl text-3xl font-semibold text-white p-4'>
-                    Enable <span className='text-design-accent'>integration</span> with other popular tools and platforms
+                    Experience <span className='text-design-accent'>Security</span> with amazing tools and features
                 </h1>
                 <h4 data-aos="fade-up" className="text-[rgb(158,157,157)] font-medium lg:text-[1.3rem] lg:leading-6 md:text-xl max-w-xl">
-                    Seamlessly connect and amplify your workflow by enabling integration with a diverse array of widely-used tools and platforms.
+                    Seamlessly connect and amplify your security by enabling integration with a diverse array of widely-used features on Vultisig.
                 </h4>
 
                 {/* <img data-aos="zoom-in" width={620} className="pt-16" src="https://framerusercontent.com/images/sQd7MkwgkdQRRQ1a99k5Z1zLfA.png?scale-down-to=1024" alt="platform-integrations" /> */}
@@ -88,19 +88,20 @@ function Step1() {
         <div>
             <img className='w-44' src="https://vultisig.com/_next/image?url=%2Fimages%2Fhome%2Fasset-management.png&w=1920&q=75" alt="step" />
             <p className='text-design-accent mt-5'>Completed</p>
-            <h3 className='text-3xl font-semibold my-4 mt-2'>React Interface</h3>
+            <h3 className='text-3xl font-semibold my-4 mt-2'>VULTISIG: ASSET 
+                <br />MANAGEMENT HUB</h3>
             <div className='flex flex-col gap-3'>
                 <p>
-                    ✨ Vite React Interface
+                    ✨ Chain-Agnostic: Supports Bitcoin, <br/>Ethereum, Solana, THORChain, and more.
                 </p>
                 <p>
-                    ✨ Cool Animations
+                    ✨ Multi-Signature Wallet: Multi-chain, <br/>Multi-asset wallets for everyone
                 </p>
                 <p>
-                    ✨ Framer Motion
+                    ✨ Asset Management: Deposit, send,<br/> swap, and manage assets seamlessly.
                 </p>
                 <p>
-                    ✨ Figma Design.
+                    ✨ DeFi Compatible: Rebalance portfolios <br/>  and access advanced DeFi functions
                 </p>
             </div>
         </div>
@@ -112,19 +113,19 @@ function Step2() {
         <div>
             <img className='w-44' src="https://vultisig.com/_next/image?url=%2Fimages%2Fhome%2Fcrypto-exchange.png&w=1920&q=75" alt="step" />
             <p className='text-design-accent mt-5'>Completed</p>
-            <h3 className='text-3xl font-semibold my-4 mt-2'>Web3 Interface</h3>
+            <h3 className='text-3xl font-semibold my-4 mt-2'>DEFI IN YOUR <br/>POCKET</h3>
             <div className='flex flex-col gap-3'>
                 <p>
-                    ✨ Connect Wallet
+                    ✨ Portfolio Rebalancing: Manage assets<br/> directly within the vault.
                 </p>
                 <p>
-                    ✨ Thirdweb SDK
+                    ✨ Advanced Functions: Supports<br/> bonding, staking, and more.
                 </p>
                 <p>
-                    ✨ NFT Gating
+                    ✨ DeFi Compatible: Seamless <br/>integration with decentralized finance.
                 </p>
                 <p>
-                    ✨ Wallet SDK.
+                    ✨ User-Friendly: Perform actions <br/>easily without specialized hardware.
                 </p>
             </div>
         </div>
@@ -136,19 +137,20 @@ function Step3() {
         <div>
             <img className='w-44' src="https://vultisig.com/_next/image?url=%2Fimages%2Fhome%2Fwallets-power.png&w=1920&q=75" alt="step" />
             <p className='text-design-accent mt-5'>Completed</p>
-            <h3 className='text-3xl font-semibold my-4 mt-2'>Accomplishment</h3>
+            <h3 className='text-3xl font-semibold mt-2'>EXPAND YOUR <br/>WALLET`S POWER </h3>
+            <p className="my-4">(In developement)</p>
             <div className='flex flex-col gap-3'>
                 <p>
-                    ✨ NFT Gated Website
+                    ✨ Automated Investments: DCA plugin <br/>for effortless investing.
                 </p>
                 <p>
-                    ✨ Wallet Integration
+                    ✨ Salary Management: Streamline<br/> payroll and financial tasks.
                 </p>
                 <p>
-                    ✨ Cool Animations
+                    ✨ Customizable Features: Tailor <br/>fwallet to individual needs.
                 </p>
                 <p>
-                    ✨ Build on Time.
+                    ✨ Seamless Integration: Tools work <br/>ftogether for simplified crypto experience.
                 </p>
             </div>
         </div>
