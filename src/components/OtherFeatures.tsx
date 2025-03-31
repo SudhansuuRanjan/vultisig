@@ -65,18 +65,6 @@ const OtherFeatures = () => {
                             ))
                         }
                     </div> */}
-
-                    <div className='text-center flex items-center flex-col max-w-3xl mx-auto pt-12'>
-                        <SmallHeading emoji={"🛠️"} text={"INTEGRATIONS"} />
-                        <h1 data-aos="fade-up" className='lg:text-5xl md:text-4xl text-3xl font-semibold text-white p-4'>
-                            Enable <span className='text-design-accent'>integration</span> with other popular tools and platforms
-                        </h1>
-                        <h4 data-aos="fade-up" className="text-[rgb(158,157,157)] font-medium lg:text-[1.3rem] lg:leading-6 md:text-xl max-w-xl">
-                            Seamlessly connect and amplify your workflow by enabling integration with a diverse array of widely-used tools and platforms.
-                        </h4>
-
-                        <img data-aos="zoom-in" width={620} className="pt-16" src="https://framerusercontent.com/images/sQd7MkwgkdQRRQ1a99k5Z1zLfA.png?scale-down-to=1024" alt="platform-integrations" />
-                    </div>
                 </div>
             </div>
 

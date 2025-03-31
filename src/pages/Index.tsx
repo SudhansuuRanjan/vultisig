@@ -13,6 +13,7 @@ import Footer from '@/components/Footer';
 import PremierFeatures from '@/components/PremierFeature';
 import FAQ from '@/components/FAQ';
 import OtherFeatures from '@/components/OtherFeatures';
+import BestFeatures from '@/components/BestFeatures';
 
 const Index = () => {
   return (
@@ -25,6 +26,7 @@ const Index = () => {
         <FeaturesSection />
         <ProcessSection />
         <OtherFeatures />
+        <BestFeatures />
         {/* <StatsSection /> */}
         <TestimonialsSection />
         {/* <FaqSection /> */}
