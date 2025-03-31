@@ -7,8 +7,8 @@ const HeroSection = () => {
       <div data-aos="zoom-in" className="container mx-auto">
         <div className="max-w-3xl mx-auto text-center relative z-10">
           <a href='https://airdrop.vultisig.com/leaderboard' target='_blank' className='border m-auto mb-3 border-design-border cursor-pointer hover:scale-[102%] transition w-fit px-1 py-1 rounded-full flex items-center gap-2'>
-            <div className='bg-design-card text-sm text-design-accent rounded-full py-0.5 px-2'>
-              Live Now
+            <div className='bg-design-card flex gap-2 items-center text-sm text-design-accent rounded-full py-0.5 px-2'>
+             <div className='animate-ping rounded-full size-2 bg-rose-500'></div> <div>Live Now</div>
             </div>
             <div className='pr-3'>
               Go to Vultisig Airdrop <ArrowRight size={15} className="inline-block" />
@@ -16,10 +16,10 @@ const HeroSection = () => {
           </a>
 
           <Parallax
-            translateX={['-1000px', '850px']}
-            translateY={['-1000px', '500px']}
+            translateX={['-900px', '400px']}
+            translateY={['-1000px', '200px']}
             easing="easeInQuad">
-            <img src="/airdrop.png" alt="space ship" className='absolute lg:h-24 md:h-20 h-24 top-[10rem] -left-[10rem] ]z-0' />
+            <img src="/airdrop.png" alt="space ship" className='absolute lg:h-20 md:h-16 h-16 top-[10rem] -left-[10rem] ]z-0' />
           </Parallax>
 
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
@@ -28,7 +28,7 @@ const HeroSection = () => {
 
           <h3 className='text-design-accent text-xl font-medium'>OPEN-SOURCE AUDITED</h3>
 
-          <p className="text-white/70 lg:text-lg md:text-lg text-base mb-8 lg:mt-3 md:mt-3 mt-6 max-w-2xl mx-auto">
+          <p className="text-white/70  lg:text-lg md:text-lg text-base mb-8 lg:mt-3 md:mt-3 mt-6 max-w-2xl mx-auto">
             The ultimate self custodial multichain crypto vault, based on secure threshold secure signatures. No more seed phrases, no more single point of failure. Just you and your assets.
           </p>
 
