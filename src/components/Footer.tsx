@@ -49,8 +49,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className='flex lg:flex-row gap-5 md:flex-row flex-col w-full'>
-            <div className='lg:max-w-lg md:max-w-md flex-1 w-full'>
+          <div className='flex gap-5 flex-wrap w-full'>
+            <div className='lg:max-w-lg md:max-w-md lg:flex-1 lg:w-full'>
               <h5 className='text-base font-semibold flex items-center gap-2'><div className='size-2 rounded-full bg-design-accent'></div> VultiSig</h5>
               <div className='w-full flex flex-col gap-3 font-medium mt-5'>
                 <Link onClick={scrollToTop} to="/" className='bg-gray-400 hover:bg-opacity-25 cursor-pointer w-fit rounded-full bg-opacity-15 py-2 px-6'>
@@ -75,7 +75,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className='lg:max-w-md md:max-w-md flex-1 w-full'>
+            <div className='lg:max-w-md md:max-w-md lg:flex-1 lg:w-full'>
               <h5 className='text-base font-semibold flex items-center gap-2'><div className='size-2 rounded-full bg-design-accent'></div> Contact</h5>
               <div className='w-full flex flex-col gap-3 font-medium mt-5'>
                 <Link to="/" className='bg-gray-400 hover:bg-opacity-25 cursor-pointer w-fit rounded-full bg-opacity-15 py-2 px-6'>
@@ -96,7 +96,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className='lg:max-w-md md:max-w-md w-full flex-1'>
+            <div className='lg:max-w-md md:max-w-md lg:flex-1 lg:w-full'>
               <h5 className='text-base font-semibold flex items-center gap-2'><div className='size-2 rounded-full bg-design-accent'></div> Legals</h5>
               <div className='w-full flex flex-col gap-3 font-medium mt-5'>
                 <Link onClick={scrollToTop} to="/" className='bg-gray-400 hover:bg-opacity-25 cursor-pointer w-fit rounded-full bg-opacity-15 py-2 px-6'>
