@@ -86,22 +86,22 @@ const BestFeatures = () => {
 function Step1() {
     return (
         <div>
-            <img className='w-44' src="https://vultisig.com/_next/image?url=%2Fimages%2Fhome%2Fasset-management.png&w=1920&q=75" alt="step" />
+            <img data-aos="fade-up" className='w-44' src="https://vultisig.com/_next/image?url=%2Fimages%2Fhome%2Fasset-management.png&w=1920&q=75" alt="step" />
             <p className='text-design-accent mt-5'>Completed</p>
-            <h3 className='text-3xl font-semibold my-4 mt-2'>VULTISIG: ASSET 
+            <h3 className='text-3xl font-semibold my-4 mt-2'>VULTISIG: ASSET
                 <br />MANAGEMENT HUB</h3>
             <div className='flex flex-col gap-3'>
                 <p>
-                    ✨ Chain-Agnostic: Supports Bitcoin, <br/>Ethereum, Solana, THORChain, and more.
+                    ✨ Chain-Agnostic: Supports Bitcoin, <br />Ethereum, Solana, THORChain, and more.
                 </p>
                 <p>
-                    ✨ Multi-Signature Wallet: Multi-chain, <br/>Multi-asset wallets for everyone
+                    ✨ Multi-Signature Wallet: Multi-chain, <br />Multi-asset wallets for everyone
                 </p>
                 <p>
-                    ✨ Asset Management: Deposit, send,<br/> swap, and manage assets seamlessly.
+                    ✨ Asset Management: Deposit, send,<br /> swap, and manage assets seamlessly.
                 </p>
                 <p>
-                    ✨ DeFi Compatible: Rebalance portfolios <br/>  and access advanced DeFi functions
+                    ✨ DeFi Compatible: Rebalance portfolios <br />  and access advanced DeFi functions
                 </p>
             </div>
         </div>
@@ -111,21 +111,21 @@ function Step1() {
 function Step2() {
     return (
         <div>
-            <img className='w-44' src="https://vultisig.com/_next/image?url=%2Fimages%2Fhome%2Fcrypto-exchange.png&w=1920&q=75" alt="step" />
+            <img data-aos="fade-up" className='w-44' src="https://vultisig.com/_next/image?url=%2Fimages%2Fhome%2Fcrypto-exchange.png&w=1920&q=75" alt="step" />
             <p className='text-design-accent mt-5'>Completed</p>
-            <h3 className='text-3xl font-semibold my-4 mt-2'>DEFI IN YOUR <br/>POCKET</h3>
+            <h3 className='text-3xl font-semibold my-4 mt-2'>DEFI IN YOUR <br />POCKET</h3>
             <div className='flex flex-col gap-3'>
                 <p>
-                    ✨ Portfolio Rebalancing: Manage assets<br/> directly within the vault.
+                    ✨ Portfolio Rebalancing: Manage assets<br /> directly within the vault.
                 </p>
                 <p>
-                    ✨ Advanced Functions: Supports<br/> bonding, staking, and more.
+                    ✨ Advanced Functions: Supports<br /> bonding, staking, and more.
                 </p>
                 <p>
-                    ✨ DeFi Compatible: Seamless <br/>integration with decentralized finance.
+                    ✨ DeFi Compatible: Seamless <br />integration with decentralized finance.
                 </p>
                 <p>
-                    ✨ User-Friendly: Perform actions <br/>easily without specialized hardware.
+                    ✨ User-Friendly: Perform actions <br />easily without specialized hardware.
                 </p>
             </div>
         </div>
@@ -135,22 +135,22 @@ function Step2() {
 function Step3() {
     return (
         <div>
-            <img className='w-44' src="https://vultisig.com/_next/image?url=%2Fimages%2Fhome%2Fwallets-power.png&w=1920&q=75" alt="step" />
+            <img data-aos="fade-up" className='w-44' src="https://vultisig.com/_next/image?url=%2Fimages%2Fhome%2Fwallets-power.png&w=1920&q=75" alt="step" />
             <p className='text-design-accent mt-5'>Completed</p>
-            <h3 className='text-3xl font-semibold mt-2'>EXPAND YOUR <br/>WALLET`S POWER </h3>
+            <h3 className='text-3xl font-semibold mt-2'>EXPAND YOUR <br />WALLET`S POWER </h3>
             <p className="my-4">(In developement)</p>
             <div className='flex flex-col gap-3'>
                 <p>
-                    ✨ Automated Investments: DCA plugin <br/>for effortless investing.
+                    ✨ Automated Investments: DCA plugin <br />for effortless investing.
                 </p>
                 <p>
-                    ✨ Salary Management: Streamline<br/> payroll and financial tasks.
+                    ✨ Salary Management: Streamline<br /> payroll and financial tasks.
                 </p>
                 <p>
-                    ✨ Customizable Features: Tailor <br/>fwallet to individual needs.
+                    ✨ Customizable Features: Tailor <br />fwallet to individual needs.
                 </p>
                 <p>
-                    ✨ Seamless Integration: Tools work <br/>ftogether for simplified crypto experience.
+                    ✨ Seamless Integration: Tools work <br />ftogether for simplified crypto experience.
                 </p>
             </div>
         </div>

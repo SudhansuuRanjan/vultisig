@@ -17,7 +17,7 @@ const TrustedBySection = () => {
 
         <Marquee autoFill={true} className="lg:mb-12 md:mb-10 mb-6 flex overflow-y-hidden w-full" pauseOnHover={true}>
           {companies.map((company) => (
-            <li key={company.name} className='flex px-10 hover:scale-[104%] transition-all flex-col items-center gap-2 text-center cursor-pointer'>
+            <li key={company.name} className='flex px-10 mt-3 hover:scale-[104%] transition-all flex-col items-center gap-2 text-center cursor-pointer'>
               <img 
                 alt={company.name} 
                 loading="lazy" 
