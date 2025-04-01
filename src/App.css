@@ -127,3 +127,22 @@
   position: relative;
   height: 130vh;
 }
+
+
+::-webkit-scrollbar {
+  width: .5rem !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem !important;
+  background: #345083 !important;
+  transition: all 0.5s ease-in-out !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5d5ddb !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #071543 !important;
+}

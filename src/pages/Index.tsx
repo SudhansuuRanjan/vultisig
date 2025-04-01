@@ -19,7 +19,7 @@ import ChatBot from '@/components/ChatBot';
 
 const Index = () => {
   return (
-    <div className="bg-design-dark min-h-screen text-white">
+    <div className="bg-design-dark min-h-screen text-white relative">
       <Navbar />
       <main>
         <HeroSection />
