@@ -13,7 +13,7 @@ const ProcessSection = () => {
           </div>
 
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">
-            Top-notch designs,<br />delivered at your doorstep
+            Top-notch security,<br />delivered at your fingerstips.
           </h2>
         </div>
 
@@ -24,7 +24,7 @@ const ProcessSection = () => {
               <MessageSquare className="w-8 h-8 text-design-accent" />
             </div>
             <h3 className="text-white text-xl font-semibold mb-3">Tell us your vision</h3>
-            <p className="text-white/60">Share your project details, goals, and requirements through our intuitive brief system.</p>
+            <p className="text-white/60">Share your project details, goals, and requirements through our intuitive Discord or Contact us.</p>
           </div>
 
           {/* Step 2 */}
@@ -33,7 +33,7 @@ const ProcessSection = () => {
               <Wand2 className="w-8 h-8 text-design-accent" />
             </div>
             <h3 className="text-white text-xl font-semibold mb-3">Receive the magic</h3>
-            <p className="text-white/60">Our design experts craft beautiful, functional solutions tailored to your needs.</p>
+            <p className="text-white/60">Our security experts craft strategic, functional solutions tailored to your security needs.</p>
           </div>
 
           {/* Step 3 */}
@@ -42,7 +42,7 @@ const ProcessSection = () => {
               <HandHelping className="w-8 h-8 text-design-accent" />
             </div>
             <h3 className="text-white text-xl font-semibold mb-3">Get ongoing support</h3>
-            <p className="text-white/60">We provide continuous feedback, revisions, and assistance to ensure perfection.</p>
+            <p className="text-white/60">We provide continuous feedback, revisions, and assistance to ensure security perfection.</p>
           </div>
         </div>
       </div>

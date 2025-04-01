@@ -7,7 +7,7 @@ const OtherFeatures = () => {
         {
             icon: <Phone />,
             title: "Cross-Platform Compatibility",
-            description: "Enjoy the flexibility of cross-platform compatibility. Our product works seamlessly across desktop, web, and mobile devices, allowing you to work from your preferred device."
+            description: "Enjoy the flexibility of cross-platform compatibility. Our product works seamlessly across windows, mac, linux and mobile devices, allowing you to manage from your preferred device."
         },
         {
             icon: <Bell />,
@@ -28,7 +28,7 @@ const OtherFeatures = () => {
                 <div className='flex flex-col py-12'>
                     <SmallHeading emoji={"🤩"} text={"AND MORE..."} />
                     <h1 data-aos="fade-up" className='lg:text-[3.4rem] md:text-[2.8rem] text-[2.4rem] lg:leading-[4rem] md:leading-[3.4rem] leading-[3rem] font-medium text-white py-4'>
-                        Explore an array of features that elevate your <span className='text-design-accent'>Productivity</span> to new heights
+                        Explore an array of features that elevate your <span className='text-design-accent'>Security</span> to new heights
                     </h1>
                     <h4 data-aos="fade-up" className='text-gray-300 lg:text-2xl md:text-xl text-lg max-w-2xl'>
                         Discover the tools that will revolutionize the way you manage and optimize your operations
