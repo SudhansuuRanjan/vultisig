@@ -18,7 +18,7 @@ const Footer = () => {
 
         <div data-aos="fade-up" data-aos-duration="700" className="group flex lg:flex-row md:flex-row flex-col lg:gap-5 md:gap-5 gap-5 mt-10 items-center">
           <button className="bg-gradient-to-r hover:scale-105 transition-all from-[#33E6BF] to-[#0439C7] text-design-dark lg:text-lg md:text-lg text-base font-medium lg:w-[14rem] md:w-[14rem] w-[19rem] py-3 rounded-2xl text-center flex items-center gap-3 justify-center">
-            <span>Join Discord</span>
+            <span><a href="https://discord.com/invite/54wEtGYxuv" target='_blank'>Join Discord</a></span>
           </button>
 
           <button className="bg-gradient-to-r hover:scale-105 transition-all border border-design-accent text-design-accent lg:text-lg md:text-lg text-base font-medium lg:w-[14rem] md:w-[14rem] w-[19rem] py-[0.72rem] rounded-2xl text-center flex items-center gap-3 justify-center">
@@ -43,7 +43,7 @@ const Footer = () => {
               <Link aria-label="Twitter" to="https://twitter.com/vultisig" className='h-10 w-10 rounded-full flex justify-center items-center bg-white hover:bg-opacity-25 cursor-pointer bg-opacity-15 transition'>
                 <XIcon size={26} />
               </Link>
-              <a target='_blank' aria-label="Youtube" className='h-10 w-10 rounded-full flex justify-center items-center bg-white hover:bg-opacity-25 cursor-pointer bg-opacity-15 transition' href="https://youtube.com/@retinaaiims?si=YTNHaQk0fTtutvyR">
+              <a target='_blank' aria-label="Youtube" className='h-10 w-10 rounded-full flex justify-center items-center bg-white hover:bg-opacity-25 cursor-pointer bg-opacity-15 transition' href="#">
                 <Youtube size={26} />
               </a>
             </div>

@@ -8,7 +8,7 @@ const Testimonials = () => {
             name: "David",
             img: "https://framerusercontent.com/images/mIAsKrgLvd7WbLFFsh6f6YobhSc.jpg",
             job: "FreeLancer",
-            review: "Using this product has been a game-changer for our team. The collaboration features and intuitive interface have greatly improved our productivity."
+            review: "Using Vultisig has been a game-changer for our team. The security features and intuitive interface have greatly improved our productivity."
         },
         {
             name: "Sarah",
@@ -20,7 +20,7 @@ const Testimonials = () => {
             name: "Alex",
             img: "https://framerusercontent.com/images/PIlOZWlmobm4uLtBhKFfw7HS4.jpg",
             job: "Product Manager",
-            review: "I can't imagine running my business without this product. The automation features have saved me hours of manual work, allowing me to focus on strategic tasks."
+            review: "I can't imagine running my business without this product. The security features have saved me hours of manual work, allowing me to focus on strategic tasks."
         },
         {
             name: "Emily",
