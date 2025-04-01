@@ -6,28 +6,28 @@ const FAQ = () => {
 
     const faqs = [
         {
-            question: "What's your challenge expectations?",
-            answer: "Our challenge expectations can be summarized as follows: Foster innovation and creativity, Encourage collaboration and teamwork, Deliver impactful and practical solutions and Strive for technical excellence and problem-solving skills.",
+            question: "What are the key features of Vultisig?",
+            answer: "Vultisig offers a range of innovative features, including self-custodial multichain support, secure threshold signatures, and the elimination of seed phrases. Our platform ensures that users have complete control over their assets without relying on a single point of failure.",
             id: "1"
         },
         {
-            question: "How was your challenge experience?",
-            answer: "It was a great experience. We learned a lot of new things and we had the chance to meet new people. We also had the chance to work on a real-life problem and try to solve it.",
+            question: "How does Vultisig enhance security?",
+            answer: "Vultisig enhances security by utilizing threshold signatures, which require multiple signatures to authorize transactions. This means that even if one key is compromised, your assets remain safe. Our system is designed to protect against unauthorized access while giving you full control.",
             id: "2"
         },
         {
-            question: "What is your expected result?",
-            answer: "I learnt a lot of new things and I had the chance to meet new people. I also had the chance to work on a real-life problem and try to solve it. I learnt a lot of new things and I had the chance to meet new people. I also had the chance to work on a real-life problem and try to solve it.",
+            question: "What can I expect from using Vultisig?",
+            answer: "By using Vultisig, you can expect a seamless experience in managing your crypto assets. You will enjoy enhanced security without the hassle of remembering complex seed phrases.",
             id: "3"
         },
         {
-            question: "What are the difficulties you faced?",
-            answer: "I faced a lot of difficulties. I learnt a lot of new things and I had the chance to meet new people. I also had the chance to work on a real-life problem and try to solve it. I learnt a lot of new things and I had the chance to meet new people. I also had the chance to work on a real-life problem and try to solve it.",
+            question: "Are there any challenges when using Vultisig?",
+            answer: "While Vultisig is designed for ease of use, users may face challenges in understanding the concept of threshold signatures initially. However, our comprehensive resources and support are available to help you navigate any difficulties and maximize your experience with the platform.",
             id: "4"
         },
         {
-            question: "Is this Quest platform free of cost?",
-            answer: "Yes, Quest is a free platform for all students. We are a non-profit organization and we are not looking to make any profit from this platform.",
+            question: "Is Vultisig free to use?",
+            answer: "Yes, Vultisig is free to use for all users. We believe in democratizing access to secure crypto management solutions without any hidden fees or costs.",
             id: "5"
         }
     ]
