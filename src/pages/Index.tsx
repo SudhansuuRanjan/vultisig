@@ -15,6 +15,7 @@ import FAQ from '@/components/FAQ';
 import OtherFeatures from '@/components/OtherFeatures';
 import BestFeatures from '@/components/BestFeatures';
 import Video from '@/components/Video';
+import ChatBot from '@/components/ChatBot';
 
 const Index = () => {
   return (
@@ -36,6 +37,7 @@ const Index = () => {
         <CtaSection />
       </main>
       <Footer />
+      <ChatBot/>
     </div>
   );
 };
