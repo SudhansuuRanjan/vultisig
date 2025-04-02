@@ -44,7 +44,7 @@ const Testimonials = () => {
                     </h4>
                 </div>
             </div>
-            <Marquee direction="right" speed={40} autoFill={true} className="lg:mb-12 md:mb-10 mb-6 marquee" pauseOnHover={true}>
+            <Marquee direction="right" speed={50} autoFill={true} className="lg:mb-12 md:mb-10 mb-6 marquee" pauseOnHover={true}>
                 {
                     testimonials.map((testimonial, index) => (
                         <div key={index} className="border bg-design-card border-design-border rounded-[1.8rem] flex flex-col gap-4 p-10 pt-14 w-[21rem] flex-1 mx-3">
