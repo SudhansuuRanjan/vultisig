@@ -11,7 +11,7 @@ const companies = [
 
 const TrustedBySection = () => {
   return (
-    <section className="py-6 px-6 border-design-border">
+    <section className="py-6 px-2 border-design-border">
       <div className="container mx-auto">
 
         <Marquee autoFill={true} className="lg:mb-12 md:mb-10 mb-6 flex overflow-y-hidden w-full" pauseOnHover={true}>
