@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="relative bg-image pt-32 pb-20 px-3 md:px-6 overflow-hidden">
       <div data-aos="zoom-in" className="container mx-auto">
         <div className="lg:max-w-3xl md:max-w-3xl max-w-full mx-auto text-center relative z-10">
-          <a href='https://airdrop.vultisig.com/leaderboard' target='_blank' className='border m-auto mb-3 border-design-border hover:bg-design-card-hover cursor-pointer hover:scale-[102%] transition w-fit px-1 py-1 rounded-full flex items-center gap-2 lg:scale[100%] md:scale-[100%] scale-[75%]'>
+          <a href='https://airdrop.vultisig.com/leaderboard' target='_blank' className='border lg:text-base md:text-base text-sm m-auto mb-3 border-design-border hover:bg-design-card-hover cursor-pointer hover:scale-[102%] transition w-fit px-1 py-1 rounded-full flex items-center gap-2 lg:scale[100%] md:scale-[100%] scale-[75%]'>
             <div className='bg-design-card flex gap-2 items-center text-sm text-design-accent rounded-full py-0.5 pl-2 pr-3'>
               <div className='animate-ping rounded-full size-2 bg-rose-500'></div> <div>Live Now</div>
             </div>
