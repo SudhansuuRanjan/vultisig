@@ -10,7 +10,7 @@ const Heading = ({ smallHeadingEmoji, smallHeadingText, bigHeadingText, highLigh
             <SmallHeading emoji={smallHeadingEmoji} text={smallHeadingText} />
             <h1 dangerouslySetInnerHTML={{
                 __html: bigHeadingTextWithHighlightedText
-            }} className='lg:text-5xl md:text-5xl text-3xl font-semibold text-white/80 p-4'>
+            }} className='lg:text-5xl md:text-5xl sm:text-3xl text-2xl font-semibold text-white/80 p-4 lg:px-4 md:px-4 px-2'>
             </h1>
             <h4 className='text-white/40 lg:text-2xl md:text-xl text-lg lg:max-w-2xl md:max-w-xl px-10'>
                 {bottomText}
