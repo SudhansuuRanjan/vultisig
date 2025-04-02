@@ -2,7 +2,7 @@ import { BarChart3, Sparkles, LineChart, Workflow, Users } from 'lucide-react';
 
 const FeaturesSection = () => {
   return (
-    <section id="features" className="py-20 px-6 md:px-12 border-t border-design-border">
+    <section id="features" className="py-20 lg:px-6 md:px-6 px-4 md:px-12 border-t border-design-border">
       <div className="container mx-auto">
         <div data-aos="fade-up" className="mb-16 ">
           <div className="flex items-center justify-center mb-4">
@@ -10,7 +10,7 @@ const FeaturesSection = () => {
             <p className="text-design-accent font-medium text-sm uppercase tracking-wider">Security Features</p>
           </div>
 
-          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8">
+          <h2 className="text-2xl md:text-4xl font-bold text-white text-center mb-8">
             We resolve problems associated with<br />security procedures.
           </h2>
         </div>
